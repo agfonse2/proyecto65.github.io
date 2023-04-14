@@ -1,0 +1,158 @@
+body{
+    text-align: center;
+   background:linear-gradient(#00fbeb 50%,#12ff00 100%)
+}
+
+img{
+  width:100;
+  height:100;
+    border-radius: 50%;
+    
+}
+#nombre{
+  font-family: 'Delicious Handrawn', cursive;
+   color:black;
+  font-size:50px;
+}
+#bienvenida{
+     padding:70px;
+    text-align:center:
+}
+h1{
+  
+  font-size:18px;
+}
+p{
+  font-size:18px;
+  color:#6A1B9A;
+    
+}
+h2{
+  font-size:20px;
+  color:#003487;
+}
+.línea{
+  /* Projecto57- Diseña la class línea: height 6px, background color black, width 70px y margin 8px auto.*/
+    height: 6px;
+    background-color:black;
+    width:70px;
+    margin:8px auto;
+}
+#bio{
+   /*  Pon padding de 20px, font size de 18px y alinea el texto en el centro.*/
+    padding:20px;
+    font-size:18;
+    text-align:center;
+}
+.menú{
+   list-style: none;
+    font-family:cursive;
+   float:left;
+    top:10px;
+    right:30px;
+    cursor: pointer;
+    color:black;
+}
+.menú a{
+    color:black !important;
+}
+
+
+.link{
+    color:crimson;
+    display: inline;
+    padding-top:5px;
+    padding-left:9px;
+    padding-right:9px;
+    padding-bottom: 5px;
+}
+   .link:hover{
+    background-color:beige;
+}
+
+#Mi trabajo a{
+    font-size: :30px;
+    
+}
+#Referencias a{
+    font-size: :30px;
+    
+}
+#foto{
+    width:auto;
+    height:300px;
+   border-radius:0%;
+    
+    margin:20px;
+}
+.inspiración
+{
+  background: #373B44;  /* alternativa para navegadores antiguos */
+
+ background: linear-gradient( #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding-top:20px;
+}
+
+img {
+transition: transform .2s;
+  width:40%;
+}
+
+img:hover {
+  /* Project60- Usa la propiedad 'transform' para cambiar la escala de imágenes cuando se mueve el ratón encima de ellas.*/
+	/*nombre de la propiedad*/transform: scale(0.9);
+}
+
+#contacto a{
+    font-size: 30px !important;
+    font-family: 'Courgette', cursive !important;
+      
+}
+
+#contacto{
+    background-color: chartreuse;
+     padding-top: 20px;
+}
+
+ul{
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+  background-color:#7FFFD4;
+    overflow: hidden;
+}
+
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #20B2AA;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #ADD8E6;
+}
+
+li {
+  border-right: 1px solid #bbb;
+}
+
+
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+section
+{
+
+}
